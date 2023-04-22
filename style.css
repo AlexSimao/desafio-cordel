@@ -6,6 +6,7 @@
 :root{
     --font01: 'Sriracha', cursive;
     --font02: 'Passion One', cursive;
+    --font03: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 *{
@@ -34,7 +35,7 @@ header h1{
 }
 
 header p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font03);
 }
 
 a{
@@ -62,7 +63,7 @@ section{
 
 .fundo-img01 p, .fundo-img02 p {
     background-color: rgba(0, 0, 0, 0.486);
-    width: 44vw;
+    width: 45vw;
     color: #fff;
     padding: 5px;
     text-shadow: 1px 1px 0 black;
@@ -88,7 +89,7 @@ footer{
     background-color: black;
     color: #fff;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font03);
     padding: 10px;
 }
 
